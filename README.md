@@ -1,11 +1,3 @@
-Yii 2 Practical Project Template
-================================
-
-[![Latest Stable Version](https://poser.pugx.org/kartik-v/yii2-app-practical/v/stable.svg)](https://packagist.org/packages/kartik-v/yii2-app-practical) 
-[![License](https://poser.pugx.org/kartik-v/yii2-app-practical/license.svg)](https://packagist.org/packages/kartik-v/yii2-app-practical)
-[![Total Downloads](https://poser.pugx.org/kartik-v/yii2-app-practical/downloads.svg)](https://packagist.org/packages/kartik-v/yii2-app-practical) 
-[![Monthly Downloads](https://poser.pugx.org/kartik-v/yii2-app-practical/d/monthly.png)](https://packagist.org/packages/kartik-v/yii2-app-practical)
-[![Daily Downloads](https://poser.pugx.org/kartik-v/yii2-app-practical/d/daily.png)](https://packagist.org/packages/kartik-v/yii2-app-practical)
 
 Yii 2 Practical Project Template is a skeleton Yii 2 application based on the 
 [yii2-advanced template](https://github.com/yiisoft/yii2-app-advanced/) best for 
@@ -15,6 +7,7 @@ developing complex Web applications with multiple tiers. The template allows a
 The template includes three tiers: front end, back end, and console, each of which
 is a separate Yii application.
 
+-------------------------
 Notes from Auzadventure
 -------------------------
 
@@ -33,10 +26,8 @@ Dynamically change the menu on top with 2 levels
 4. Image 
 Image manage to add and remove images to use through the site 
 
-5. Setting Var (non DB local storage)
-A very simple local storage system that allows you to save and edit variables without using 
-mysql. 
-
+5. Setting Var 
+A very simple local storage system that allows you to save and edit variables
 
 
 
@@ -152,24 +143,6 @@ Download the [archive file](https://github.com/kartik-v/yii2-app-practical/archi
   
 After this is complete, follow the instructions given in "GETTING STARTED".
 
-GETTING STARTED
----------------
-
-After you install the application, you have to conduct the following steps to initialize
-the installed application. You only need to do these once for all.
-
-1. Run command `init` to initialize the application with a specific environment.
-2. Create a new database and adjust the `components['db']` configuration in `common/config/main-local.php` accordingly.
-3. Apply migrations with console command `yii migrate`. This will create tables needed for the application to work.
-4. Set document roots of your Web server:
-
-- for frontend `/path/to/yii-application/` and using the URL `http://frontend/`
-- for backend `/path/to/yii-application/backend/web/` and using the URL `http://backend/`
-
-To login into the application, you need to first sign up, with any of your email address, username and password.
-Then, you can login into the application with same email address and password at any time.
-
-5. Edit the config files as needed. Especially set the correct paths for the user identity cookie in `backend/config/main-local.php`.
 
 MORE DOCUMENTATION
 ------------------
