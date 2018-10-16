@@ -53,8 +53,9 @@ $this->title = 'My Yii Application';
 					
 					
 			<h4> Url </h4>		
-					  
+			<div class="small">
 			<?php echo $imgObj->getImgUrl(); ?>		  
+			</div>
 					  
 					  
 					  
